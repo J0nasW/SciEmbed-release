@@ -1,0 +1,17 @@
+{
+  "R@1": 0.376,
+  "R@10": 0.617,
+  "R@100": 0.838,
+  "nDCG@10": 0.49028618911716254,
+  "MRR": 0.4596479079918772,
+  "median_rank": 3.0,
+  "n_queries": 1000,
+  "n_candidates": 9749,
+  "model_name": "sciembed_ctx_512",
+  "model_path": "${MODEL_DIR}/stage2_ctx_v2/final",
+  "max_seq_length": 512,
+  "pooling": "mean",
+  "encode_candidates_sec": 350.87,
+  "encode_queries_sec": 3.53,
+  "embedding_dim": 768
+}

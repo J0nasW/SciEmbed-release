@@ -1,0 +1,19 @@
+{
+  "R@1": 0.473,
+  "R@10": 0.643,
+  "R@100": 0.817,
+  "nDCG@10": 0.552659002866773,
+  "MRR": 0.5314016376124725,
+  "median_rank": 2.0,
+  "n_queries": 1000,
+  "n_candidates": 9749,
+  "median_pool_size": 9749.0,
+  "pool": "fullpool",
+  "model_name": "bge_m3",
+  "model_path": "BAAI/bge-m3",
+  "max_seq_length": 8192,
+  "pooling": "cls",
+  "encode_candidates_sec": 4745.62,
+  "encode_queries_sec": 8.75,
+  "embedding_dim": 1024
+}

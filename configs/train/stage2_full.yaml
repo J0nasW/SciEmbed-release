@@ -1,0 +1,26 @@
+# Headline model: SciEmbed-FULL — Signals A+B, full deduplicated pool (~30M pairs × 1 epoch).
+# This is the 66.85 three-seed run (stage2_ctx_full_seed{123,456,789}); built by
+# data_mixer_ctx_full.yaml (50M Signal-A + 20M Signal-B -> ~30M after MD5 dedup).
+# (An earlier all-signals 45.7M variant "mixed_full_100m" was abandoned; not the headline.)
+model_name_or_path: /path/to/data/sciembed_output/stage1_hf
+output_dir: /path/to/data/sciembed_output/models/sciembed-full
+
+mixed_training_dir: /path/to/data/sciembed_output/mixed_ctx_full
+
+epochs: 1
+batch_size: 64                         # per-device; effective batch = 64 * 8 = 512
+lr: 2.0e-5
+warmup_ratio: 0.05
+matryoshka_dims: [768, 512, 256, 128]
+gradient_accumulation_steps: 8
+pooling: mean
+max_seq_length: 512                    # weight_decay/max_grad_norm use HF defaults (0.0/1.0)
+
+# Evaluation & logging
+eval_fraction: 0.05
+eval_steps: 500
+logging_steps: 50
+save_steps: 2000
+early_stopping_patience: 5
+
+run_name: sciembed-full

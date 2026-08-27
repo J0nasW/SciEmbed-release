@@ -1,0 +1,18 @@
+# Ablation: SciEmbed-CTX — Signal A + B (+ citation context queries)
+model_name_or_path: /path/to/data/sciembed_output/stage1_hf
+output_dir: /path/to/data/sciembed_output/models/sciembed-ctx
+
+# Use mixed dataset with A + B signals
+triplets_dir: /path/to/data/sciembed_output/mixed_ctx
+instruction_pairs_dir: null
+
+epochs: 3
+batch_size: 64                         # per-device; effective batch = 64 * 4 = 256
+lr: 2.0e-5
+warmup_ratio: 0.1
+matryoshka_dims: [768, 512, 256, 128]
+gradient_accumulation_steps: 4
+pooling: mean
+max_seq_length: 512                    # weight_decay/max_grad_norm use HF defaults (0.0/1.0)
+
+run_name: sciembed-ctx

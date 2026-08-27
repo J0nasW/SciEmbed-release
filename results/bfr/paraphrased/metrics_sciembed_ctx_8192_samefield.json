@@ -1,0 +1,19 @@
+{
+  "R@1": 0.358,
+  "R@10": 0.576,
+  "R@100": 0.78,
+  "nDCG@10": 0.4645574500449483,
+  "MRR": 0.4375701599142813,
+  "median_rank": 4.0,
+  "n_queries": 1000,
+  "n_candidates": 9749,
+  "median_pool_size": 398.0,
+  "pool": "samefield",
+  "model_name": "sciembed_ctx_8192_samefield",
+  "model_path": "${MODEL_DIR}/stage2_ctx_8192/final",
+  "max_seq_length": 8192,
+  "pooling": "mean",
+  "encode_candidates_sec": 2729.41,
+  "encode_queries_sec": 5.53,
+  "embedding_dim": 768
+}

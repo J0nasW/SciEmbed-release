@@ -1,0 +1,102 @@
+{
+  "sciembed_full_3seed_mean": {
+    "Biomimicry": 73.5,
+    "DRSM": 75.66000000000001,
+    "SciDocs MAG": 81.62666666666667,
+    "SciDocs MeSH": 89.39,
+    "MeSH": 87.22666666666667,
+    "Fields of study": 46.126666666666665,
+    "Peer Review Score": 18.976666666666663,
+    "Max hIndex": 18.223333333333333,
+    "Tweet Mentions": 28.03333333333333,
+    "Citation Count": 37.32,
+    "Publication Year": 38.370000000000005,
+    "SciDocs Cite": 89.58666666666666,
+    "SciDocs CoView": 84.64,
+    "SciDocs CoCite": 90.60666666666667,
+    "SciDocs CoRead": 87.44,
+    "Same Author Detection": 87.49333333333334,
+    "Highly Influential Citations": 45.86666666666667,
+    "RELISH": 91.62666666666667,
+    "NFCorpus": 74.11666666666666,
+    "TREC-CoVID": 91.58999999999999,
+    "Search": 73.41
+  },
+  "granite_r2_3seed_mean": {
+    "Biomimicry": 73.05,
+    "DRSM": 75.33,
+    "SciDocs MAG": 82.67,
+    "SciDocs MeSH": 91.24,
+    "MeSH": 88.66000000000001,
+    "Fields of study": 46.91,
+    "Peer Review Score": 17.573333333333334,
+    "Max hIndex": 13.953333333333333,
+    "Tweet Mentions": 28.540000000000003,
+    "Citation Count": 35.50666666666667,
+    "Publication Year": 33.93333333333334,
+    "SciDocs Cite": 93.24,
+    "SciDocs CoView": 85.78000000000002,
+    "SciDocs CoCite": 92.33,
+    "SciDocs CoRead": 87.77,
+    "Same Author Detection": 88.65000000000002,
+    "Highly Influential Citations": 48.15,
+    "RELISH": 93.53000000000002,
+    "NFCorpus": 77.68,
+    "TREC-CoVID": 92.86,
+    "Search": 75.5
+  },
+  "buckets": {
+    "Classif.": [
+      "Biomimicry",
+      "DRSM",
+      "SciDocs MAG",
+      "SciDocs MeSH",
+      "MeSH",
+      "Fields of study"
+    ],
+    "Regr.": [
+      "Peer Review Score",
+      "Max hIndex",
+      "Tweet Mentions",
+      "Citation Count",
+      "Publication Year"
+    ],
+    "Prox.": [
+      "SciDocs Cite",
+      "SciDocs CoView",
+      "SciDocs CoCite",
+      "SciDocs CoRead",
+      "Same Author Detection",
+      "Highly Influential Citations"
+    ],
+    "Search": [
+      "RELISH",
+      "NFCorpus",
+      "TREC-CoVID",
+      "Search"
+    ]
+  },
+  "task_metric": {
+    "Biomimicry": "f1",
+    "DRSM": "f1_macro",
+    "SciDocs MAG": "f1_macro",
+    "SciDocs MeSH": "f1_macro",
+    "MeSH": "f1_macro",
+    "Fields of study": "f1_macro",
+    "Peer Review Score": "kendalltau",
+    "Max hIndex": "kendalltau",
+    "Tweet Mentions": "kendalltau",
+    "Citation Count": "kendalltau",
+    "Publication Year": "kendalltau",
+    "SciDocs Cite": "map",
+    "SciDocs CoView": "map",
+    "SciDocs CoCite": "map",
+    "SciDocs CoRead": "map",
+    "Same Author Detection": "map",
+    "Highly Influential Citations": "map",
+    "RELISH": "ndcg",
+    "NFCorpus": "ndcg",
+    "TREC-CoVID": "ndcg",
+    "Search": "ndcg"
+  }
+}

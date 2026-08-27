@@ -1,0 +1,25 @@
+# SciEmbed-INST ablation: Signal A + B + C + instruction pairs
+# (section_pairs dropped due to random cross-paper pairing bug)
+output_dir: ${env:WORK,./output}/mixed_inst
+shard_size: 1000000
+
+signals:
+  citation_triplets:
+    dir: ${env:WORK,./output}/citation_triplets
+    pairs: 2000000
+    pattern: "triplets_*.parquet"
+
+  citation_contexts:
+    dir: ${env:WORK,./output}/citation_contexts
+    pairs: 5000000
+    pattern: "context_pairs_*.parquet"
+
+  intent_triplets:
+    dir: ${env:WORK,./output}/intent_triplets
+    pairs: 5000000
+    pattern: "intent_pairs_*.parquet"
+
+  instruction_pairs:
+    dir: ${env:WORK,./output}/instruction_pairs
+    pairs: 2000000
+    pattern: "*.parquet"

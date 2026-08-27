@@ -1,0 +1,15 @@
+# Signal B: Citation context → document pair generation
+datalake:
+  db_path: ${env:DATALAKE_DB,/path/to/data/science_datalake/datalake.duckdb}
+  read_only: true
+  threads: 16
+  memory_limit: "128GB"
+
+output_dir: /path/to/data/sciembed_output/citation_contexts
+num_pairs: 20000000
+influential_only: true
+min_context_chars: 50
+max_context_chars: 1000
+max_abstract_chars: 512
+page_size: 50000
+shard_size: 1000000

@@ -1,0 +1,16 @@
+# Ablation: SciEmbed-INT — Signal A + B + C (+ intent-conditioned)
+model_name_or_path: /path/to/data/sciembed_output/stage1_hf
+output_dir: /path/to/data/sciembed_output/models/sciembed-int
+
+triplets_dir: /path/to/data/sciembed_output/mixed_int
+instruction_pairs_dir: null
+
+epochs: 3
+batch_size: 128
+lr: 2.0e-5
+warmup_ratio: 0.1
+matryoshka_dims: [768, 512, 256, 128]
+gradient_accumulation_steps: 128
+pooling: mean
+
+run_name: sciembed-int

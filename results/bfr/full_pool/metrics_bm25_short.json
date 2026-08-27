@@ -1,0 +1,21 @@
+{
+  "R@1": 0.342,
+  "R@10": 0.471,
+  "R@100": 0.625,
+  "nDCG@10": 0.40695741917285433,
+  "MRR": 0.3929987001799046,
+  "median_rank": 15.0,
+  "n_queries": 1000,
+  "n_candidates": 9749,
+  "median_pool_size": 9749.0,
+  "min_pool_size": 9749,
+  "max_pool_size": 9749,
+  "pool": "fullpool",
+  "model_name": "bm25_short",
+  "model_path": "bm25_okapi",
+  "max_seq_length": null,
+  "pooling": "bm25",
+  "encode_candidates_sec": 0.69,
+  "encode_queries_sec": 63.02,
+  "embedding_dim": null
+}

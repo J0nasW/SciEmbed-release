@@ -1,0 +1,32 @@
+# Stage 2: Contrastive fine-tuning with sentence-transformers
+model_name_or_path: null  # set to Stage 1 HF-converted checkpoint
+output_dir: ${env:WORK,./output}/stage2_contrastive
+
+# Data — prefer mixed_training_dir (from data_mixer, pre-normalized schema)
+mixed_training_dir: ${env:WORK,./output}/mixed_full
+# Fallback: separate dirs (used if mixed_training_dir is null)
+triplets_dir: ${env:WORK,./output}/citation_triplets
+instruction_pairs_dir: ${env:WORK,./output}/instruction_pairs
+
+# Training  (values reflect the actual paper runs; FULL overrides noted inline)
+# weight_decay / max_grad_norm are NOT set here -> HF defaults apply (0.0 / 1.0).
+epochs: 3                              # ablation variants; FULL overrides to 1
+batch_size: 64                         # per-device; effective batch = batch_size * grad_accum
+lr: 2e-5
+warmup_ratio: 0.1                      # ablation variants; FULL overrides to 0.05
+matryoshka_dims: [768, 512, 256, 128]
+gradient_accumulation_steps: 4         # ablation -> eff 256; FULL overrides to 8 -> eff 512
+
+# Pooling & sequence length
+pooling: "mean"
+max_seq_length: 512  # abstracts/titles fit in 512; 8192 causes OOM
+
+# Evaluation & logging
+eval_fraction: 0.05      # 5% held out for reliable validation signal
+eval_steps: 500           # evaluate every 500 steps
+logging_steps: 50         # log every 50 steps (smooth curves)
+save_steps: 2000          # checkpoint every 2000 steps
+early_stopping_patience: 3  # halt after 3 evals with no improvement
+
+# Logging
+run_name: "stage2-contrastive"

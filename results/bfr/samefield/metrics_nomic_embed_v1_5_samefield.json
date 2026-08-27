@@ -1,0 +1,19 @@
+{
+  "R@1": 0.233,
+  "R@10": 0.528,
+  "R@100": 0.881,
+  "nDCG@10": 0.3659541084493565,
+  "MRR": 0.330605265390977,
+  "median_rank": 9.0,
+  "n_queries": 1000,
+  "n_candidates": 9749,
+  "median_pool_size": 398.0,
+  "pool": "samefield",
+  "model_name": "nomic_embed_v1_5_samefield",
+  "model_path": "nomic-ai/nomic-embed-text-v1.5",
+  "max_seq_length": 8192,
+  "pooling": "mean",
+  "encode_candidates_sec": 1822.77,
+  "encode_queries_sec": 10.17,
+  "embedding_dim": 768
+}

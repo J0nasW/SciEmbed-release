@@ -1,0 +1,170 @@
+{
+  "SciEmbed (149M)": {
+    "params": "149M",
+    "results": {
+      "1": {
+        "throughput_docs_sec": 92.8,
+        "latency_ms_per_doc": 10.78,
+        "mean_time_sec": 1.3794,
+        "std_time_sec": 0.0022,
+        "peak_vram_mb": 317.3,
+        "peak_rss_mb": 1412.6,
+        "num_docs": 128
+      },
+      "8": {
+        "throughput_docs_sec": 638.0,
+        "latency_ms_per_doc": 1.57,
+        "mean_time_sec": 0.2006,
+        "std_time_sec": 0.0052,
+        "peak_vram_mb": 324.8,
+        "peak_rss_mb": 1424.4,
+        "num_docs": 128
+      },
+      "32": {
+        "throughput_docs_sec": 2220.7,
+        "latency_ms_per_doc": 0.45,
+        "mean_time_sec": 0.0576,
+        "std_time_sec": 0.0026,
+        "peak_vram_mb": 350.3,
+        "peak_rss_mb": 1426.9,
+        "num_docs": 128
+      },
+      "64": {
+        "throughput_docs_sec": 4036.6,
+        "latency_ms_per_doc": 0.25,
+        "mean_time_sec": 0.0634,
+        "std_time_sec": 0.0018,
+        "peak_vram_mb": 384.3,
+        "peak_rss_mb": 1428.4,
+        "num_docs": 256
+      },
+      "128": {
+        "throughput_docs_sec": 5277.2,
+        "latency_ms_per_doc": 0.19,
+        "mean_time_sec": 0.0568,
+        "std_time_sec": 0.0016,
+        "peak_vram_mb": 445.3,
+        "peak_rss_mb": 1432.0,
+        "num_docs": 300
+      }
+    },
+    "matryoshka": {
+      "768": {
+        "throughput_docs_sec": 3996.1,
+        "latency_ms_per_doc": 0.25
+      },
+      "512": {
+        "throughput_docs_sec": 3963.8,
+        "latency_ms_per_doc": 0.25
+      },
+      "256": {
+        "throughput_docs_sec": 4022.0,
+        "latency_ms_per_doc": 0.25
+      },
+      "128": {
+        "throughput_docs_sec": 4034.3,
+        "latency_ms_per_doc": 0.25
+      }
+    }
+  },
+  "BGE-large-en-v1.5 (335M)": {
+    "params": "335M",
+    "results": {
+      "1": {
+        "throughput_docs_sec": 172.8,
+        "latency_ms_per_doc": 5.79,
+        "mean_time_sec": 0.7409,
+        "std_time_sec": 0.0024,
+        "peak_vram_mb": 957.7,
+        "peak_rss_mb": 2171.6,
+        "num_docs": 128
+      },
+      "8": {
+        "throughput_docs_sec": 1106.9,
+        "latency_ms_per_doc": 0.9,
+        "mean_time_sec": 0.1156,
+        "std_time_sec": 0.0051,
+        "peak_vram_mb": 968.9,
+        "peak_rss_mb": 2172.1,
+        "num_docs": 128
+      },
+      "32": {
+        "throughput_docs_sec": 3279.5,
+        "latency_ms_per_doc": 0.3,
+        "mean_time_sec": 0.039,
+        "std_time_sec": 0.0019,
+        "peak_vram_mb": 1009.2,
+        "peak_rss_mb": 2172.1,
+        "num_docs": 128
+      },
+      "64": {
+        "throughput_docs_sec": 4664.5,
+        "latency_ms_per_doc": 0.21,
+        "mean_time_sec": 0.0549,
+        "std_time_sec": 0.0022,
+        "peak_vram_mb": 1062.9,
+        "peak_rss_mb": 2172.1,
+        "num_docs": 256
+      },
+      "128": {
+        "throughput_docs_sec": 4895.2,
+        "latency_ms_per_doc": 0.2,
+        "mean_time_sec": 0.0613,
+        "std_time_sec": 0.0019,
+        "peak_vram_mb": 1167.6,
+        "peak_rss_mb": 2172.1,
+        "num_docs": 300
+      }
+    }
+  },
+  "SPECTER2 Base (110M)": {
+    "params": "110M",
+    "results": {
+      "1": {
+        "throughput_docs_sec": 302.1,
+        "latency_ms_per_doc": 3.31,
+        "mean_time_sec": 0.4237,
+        "std_time_sec": 0.0019,
+        "peak_vram_mb": 527.8,
+        "peak_rss_mb": 2244.3,
+        "num_docs": 128
+      },
+      "8": {
+        "throughput_docs_sec": 1720.8,
+        "latency_ms_per_doc": 0.58,
+        "mean_time_sec": 0.0744,
+        "std_time_sec": 0.0047,
+        "peak_vram_mb": 535.9,
+        "peak_rss_mb": 2244.3,
+        "num_docs": 128
+      },
+      "32": {
+        "throughput_docs_sec": 4849.8,
+        "latency_ms_per_doc": 0.21,
+        "mean_time_sec": 0.0264,
+        "std_time_sec": 0.002,
+        "peak_vram_mb": 565.7,
+        "peak_rss_mb": 2244.3,
+        "num_docs": 128
+      },
+      "64": {
+        "throughput_docs_sec": 7561.6,
+        "latency_ms_per_doc": 0.13,
+        "mean_time_sec": 0.0339,
+        "std_time_sec": 0.0018,
+        "peak_vram_mb": 605.5,
+        "peak_rss_mb": 2244.3,
+        "num_docs": 256
+      },
+      "128": {
+        "throughput_docs_sec": 8320.6,
+        "latency_ms_per_doc": 0.12,
+        "mean_time_sec": 0.0361,
+        "std_time_sec": 0.0018,
+        "peak_vram_mb": 674.7,
+        "peak_rss_mb": 2244.8,
+        "num_docs": 300
+      }
+    }
+  }
+}

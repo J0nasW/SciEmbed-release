@@ -1,0 +1,33 @@
+# Data mixer for SciEmbed-FULL: use complete generated pools
+# Ablation variants use data_mixer.yaml (15M subsample for fast iteration)
+# The full model uses all generated data for 1 epoch (no repeated pairs)
+# Paths use env:WORK for HPC portability
+
+output_dir: ${env:WORK,./output}/mixed_full_100m
+shard_size: 1000000
+
+signals:
+  citation_triplets:
+    dir: ${env:WORK,./output}/citation_triplets
+    pairs: 50000000    # full pool: 50M influential citation edge triplets
+    pattern: "triplets_*.parquet"
+
+  citation_contexts:
+    dir: ${env:WORK,./output}/citation_contexts
+    pairs: 20000000    # full pool: 20M context → document pairs
+    pattern: "context_pairs_*.parquet"
+
+  intent_triplets:
+    dir: ${env:WORK,./output}/intent_triplets
+    pairs: 15000000    # full pool: 15M intent-conditioned pairs (5M/intent)
+    pattern: "intent_pairs_*.parquet"
+
+  # section_pairs DROPPED: random cross-paper pairing produces noise (see investigation 2026-03-19)
+
+  instruction_pairs:
+    dir: ${env:WORK,./output}/instruction_pairs
+    pairs: 10000000    # full pool: 4M search + 3M classify + 2M cluster + 1M similarity
+    pattern: "*.parquet"
+
+# Total: 100M pairs × 1 epoch = 100M training examples
+# At 16K effective batch (128 × 128 grad_accum): ~6,250 steps

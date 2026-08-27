@@ -1,0 +1,17 @@
+# SciEmbed CTX-FULL: complete pools of Signal A + B only
+# This is our best-performing signal combination scaled to full data
+# 1 epoch, every pair seen exactly once
+
+output_dir: ${env:WORK,./output}/mixed_ctx_full
+shard_size: 1000000
+
+signals:
+  citation_triplets:
+    dir: ${env:WORK,./output}/citation_triplets
+    pairs: 50000000    # full pool: 50M citation edge triplets
+    pattern: "triplets_*.parquet"
+
+  citation_contexts:
+    dir: ${env:WORK,./output}/citation_contexts
+    pairs: 20000000    # full pool: 20M context query pairs
+    pattern: "context_pairs_*.parquet"

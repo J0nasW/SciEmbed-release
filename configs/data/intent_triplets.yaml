@@ -1,0 +1,20 @@
+# Signal C: Intent-conditioned citation context pairs
+datalake:
+  db_path: ${env:DATALAKE_DB,/path/to/data/science_datalake/datalake.duckdb}
+  read_only: true
+  threads: 16
+  memory_limit: "128GB"
+
+output_dir: /path/to/data/sciembed_output/intent_triplets
+num_pairs: 15000000
+influential_only: true
+min_context_chars: 50
+max_context_chars: 1000
+max_abstract_chars: 512
+page_size: 50000
+shard_size: 1000000
+# Oversampling to balance the 80/18/4 intent distribution
+oversample:
+  background: 1
+  methodology: 3
+  result: 10

@@ -1,0 +1,19 @@
+# Signal E: Section-aware training pairs from full-text
+datalake:
+  db_path: ${env:DATALAKE_DB,/path/to/data/science_datalake/datalake.duckdb}
+  read_only: true
+  threads: 16
+  memory_limit: "128GB"
+
+output_dir: /path/to/data/sciembed_output/section_pairs
+num_pairs: 5000000
+min_text_length: 1000
+max_text_length: 500000
+page_size: 5000
+shard_size: 500000
+positive_ratio: 0.6
+max_papers_per_source: 500000
+sources:
+  - pmc
+  - s2orc
+  - arxiv

@@ -1,0 +1,123 @@
+{
+    "Biomimicry": {
+        "complete": {
+            "f1": 73.85
+        },
+        "few_shot": [
+            {
+                "sample_size": 64,
+                "results": {
+                    "f1": 43.13620000000001
+                }
+            },
+            {
+                "sample_size": 16,
+                "results": {
+                    "f1": 28.0323
+                }
+            }
+        ]
+    },
+    "DRSM": {
+        "complete": {
+            "f1_macro": 75.44
+        },
+        "few_shot": [
+            {
+                "sample_size": 64,
+                "results": {
+                    "f1_macro": 63.28240000000001
+                }
+            },
+            {
+                "sample_size": 24,
+                "results": {
+                    "f1_macro": 52.51950000000001
+                }
+            }
+        ]
+    },
+    "RELISH": {
+        "ndcg": 91.41
+    },
+    "NFCorpus": {
+        "ndcg": 73.16
+    },
+    "TREC-CoVID": {
+        "ndcg": 91.21
+    },
+    "Paper-Reviewer Matching": {
+        "hard_P_10": 25.7,
+        "hard_P_5": 33.83,
+        "soft_P_10": 55.98,
+        "soft_P_5": 66.17
+    },
+    "Peer Review Score": {
+        "kendalltau": 18.71
+    },
+    "Max hIndex": {
+        "kendalltau": 17.74
+    },
+    "Tweet Mentions": {
+        "kendalltau": 27.78
+    },
+    "SciDocs MAG": {
+        "f1_macro": 81.97
+    },
+    "SciDocs MeSH": {
+        "f1_macro": 88.24
+    },
+    "SciDocs Cite": {
+        "map": 88.98,
+        "ndcg": 95.25
+    },
+    "SciDocs CoView": {
+        "map": 84.54,
+        "ndcg": 91.89
+    },
+    "SciDocs CoCite": {
+        "map": 90.15,
+        "ndcg": 95.8
+    },
+    "SciDocs CoRead": {
+        "map": 86.99,
+        "ndcg": 93.71
+    },
+    "Same Author Detection": {
+        "map": 87.67
+    },
+    "Highly Influential Citations": {
+        "map": 45.79
+    },
+    "Search": {
+        "ndcg": 73.37
+    },
+    "Citation Count": {
+        "kendalltau": 37.48
+    },
+    "Publication Year": {
+        "kendalltau": 38.81
+    },
+    "Fields of study": {
+        "complete": {
+            "f1_macro": 46.31
+        },
+        "few_shot": [
+            {
+                "sample_size": 10,
+                "results": {
+                    "f1_macro": 36.306
+                }
+            },
+            {
+                "sample_size": 5,
+                "results": {
+                    "f1_macro": 32.1946
+                }
+            }
+        ]
+    },
+    "MeSH": {
+        "f1_macro": 86.72
+    }
+}

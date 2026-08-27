@@ -1,0 +1,15 @@
+# Data scaling curve: 28M pairs (Signal A+B, ratio preserved)
+output_dir: ${env:WORK,./output}/mixed_scale_28m
+shard_size: 1000000
+seed: 42
+
+signals:
+  citation_triplets:
+    dir: ${env:WORK,./output}/citation_triplets
+    pairs: 8000000
+    pattern: "triplets_*.parquet"
+
+  citation_contexts:
+    dir: ${env:WORK,./output}/citation_contexts
+    pairs: 20000000
+    pattern: "context_pairs_*.parquet"

@@ -1,0 +1,19 @@
+{
+  "R@1": 0.414,
+  "R@10": 0.666,
+  "R@100": 0.876,
+  "nDCG@10": 0.5349992877471362,
+  "MRR": 0.5027515743392126,
+  "median_rank": 2.0,
+  "n_queries": 1000,
+  "n_candidates": 9749,
+  "median_pool_size": 9749.0,
+  "pool": "fullpool",
+  "model_name": "sciembed-nodapt-ctx8192",
+  "model_path": "${MODEL_DIR}/stage2_nodapt_ctx_8192/final",
+  "max_seq_length": 8192,
+  "pooling": "mean",
+  "encode_candidates_sec": 1721.59,
+  "encode_queries_sec": 3.44,
+  "embedding_dim": 768
+}

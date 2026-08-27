@@ -1,0 +1,9 @@
+# Data mixer for SciEmbed-BASE ablation: Signal A only (citation triplets)
+output_dir: ${env:WORK,./output}/mixed_base
+shard_size: 1000000
+
+signals:
+  citation_triplets:
+    dir: ${env:WORK,./output}/citation_triplets
+    pairs: 2000000
+    pattern: "triplets_*.parquet"

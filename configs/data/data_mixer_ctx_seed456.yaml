@@ -1,0 +1,15 @@
+# SciEmbed-CTX ablation: Signal A + B (seed 456 for multi-seed significance)
+output_dir: ${env:WORK,./output}/mixed_ctx_seed456
+shard_size: 1000000
+seed: 456
+
+signals:
+  citation_triplets:
+    dir: ${env:WORK,./output}/citation_triplets
+    pairs: 2000000
+    pattern: "triplets_*.parquet"
+
+  citation_contexts:
+    dir: ${env:WORK,./output}/citation_contexts
+    pairs: 5000000
+    pattern: "context_pairs_*.parquet"

@@ -1,0 +1,29 @@
+# Data mixer: combine all signals for Stage 2 training
+# Adjust signals/pairs for ablation variants (see configs/train/stage2_*.yaml)
+# Paths use env:WORK for HPC portability
+
+output_dir: ${env:WORK,./output}/mixed_full
+shard_size: 1000000
+
+signals:
+  citation_triplets:
+    dir: ${env:WORK,./output}/citation_triplets
+    pairs: 2000000
+    pattern: "triplets_*.parquet"
+
+  citation_contexts:
+    dir: ${env:WORK,./output}/citation_contexts
+    pairs: 5000000
+    pattern: "context_pairs_*.parquet"
+
+  intent_triplets:
+    dir: ${env:WORK,./output}/intent_triplets
+    pairs: 5000000
+    pattern: "intent_pairs_*.parquet"
+
+  # section_pairs DROPPED: random cross-paper pairing produces noise (see investigation 2026-03-19)
+
+  instruction_pairs:
+    dir: ${env:WORK,./output}/instruction_pairs
+    pairs: 2000000
+    pattern: "*.parquet"

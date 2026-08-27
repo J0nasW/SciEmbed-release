@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw data + build outputs live outside the repo (anchored to root so the
+# src/sciembed/data/ package and configs/data/ are NOT ignored)
+/data/
+/output/
+/mds_output/
+*.mds
+*.zst
+
+# Model checkpoints
+checkpoints/
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+
+# Logs
+*.log
+wandb/
+logs/
+lightning_logs/
+
+# Environment
+.env
+.env.local

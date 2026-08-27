@@ -1,0 +1,35 @@
+{
+  "dataset_revision": "e7a26af6f3ae46b30dde8737f02c07b1505bcc73",
+  "task_name": "MedrxivClusteringP2P.v2",
+  "mteb_version": "2.12.15",
+  "scores": {
+    "test": [
+      {
+        "v_measures": {
+          "Level 0": [
+            0.369677,
+            0.354249,
+            0.373211,
+            0.360171,
+            0.377314,
+            0.354223,
+            0.361633,
+            0.352962,
+            0.369123,
+            0.368215
+          ]
+        },
+        "v_measure": 0.364078,
+        "v_measure_std": 0.008192,
+        "main_score": 0.364078,
+        "hf_subset": "default",
+        "languages": [
+          "eng-Latn"
+        ]
+      }
+    ]
+  },
+  "evaluation_time": 118.77433896064758,
+  "kg_co2_emissions": null,
+  "date": null
+}

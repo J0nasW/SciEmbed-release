@@ -1,0 +1,19 @@
+{
+  "R@1": 0.614,
+  "R@10": 0.853,
+  "R@100": 0.97,
+  "nDCG@10": 0.7313480983242922,
+  "MRR": 0.6979182395014117,
+  "median_rank": 1.0,
+  "n_queries": 1000,
+  "n_candidates": 9749,
+  "median_pool_size": 398.0,
+  "pool": "samefield",
+  "model_name": "granite_r2_english_samefield",
+  "model_path": "ibm-granite/granite-embedding-english-r2",
+  "max_seq_length": 8192,
+  "pooling": "cls",
+  "encode_candidates_sec": 3224.49,
+  "encode_queries_sec": 20.46,
+  "embedding_dim": 768
+}

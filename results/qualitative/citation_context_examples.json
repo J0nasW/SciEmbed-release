@@ -1,0 +1,162 @@
+[
+  {
+    "citing_title": "The genome of the soybean gall midge (Resseliella maxima)",
+    "cited_title": "BUSCO Update: Novel and Streamlined Workflows along with Broader and Deeper Phylogenetic Coverage for Scoring of Eukaryotic, Prokaryotic, and Viral Genomes",
+    "context": "3) to assess genome completeness for the draft assembly both before and after Medaka polishing steps (Manni et al., 2021).",
+    "cited_abstract": "Abstract Methods for evaluating the quality of genomic and metagenomic data are essential to aid genome assembly procedures and to correctly interpret the results of subsequent analyses. BUSCO estimates the completeness and redundancy of processed genomic data based on universal single-copy ortholog...",
+    "intent": "—",
+    "title_overlap": 0.0
+  },
+  {
+    "citing_title": "Positive Surgical Margins After Partial Nephrectomy: A Systematic Review and Meta-Analysis of Comparative Studies",
+    "cited_title": "Positive surgical margins are predictors of local recurrence in conservative kidney surgery for pT1 tumors",
+    "context": "4% 70 Marchinena, 2017 [39] Comparative 314 OPN Vs MIPN 7% 22 Delto, 2018 [40] Case series 1236 RAPN 4.",
+    "cited_abstract": "ABSTRACT Objectives: The clinical significance of positive surgical margin (PSM) after a Nephron Sparing Surgery (NSS) is controversial. The aim of this study is to evaluate the association between PSM and the risk of disease recurrence in patients with pT1 kidney tumors who underwent NSS. Materials...",
+    "intent": "—",
+    "title_overlap": 0.0
+  },
+  {
+    "citing_title": "Towards Efficient and Secure Global Software Development using Blockchain",
+    "cited_title": "Improving the Quality of Software Development Process by Introducing a New Methodology–AZ-Model",
+    "context": "The results of the reliability test show (W=0.86, p=0.005) there is a strong agreement between the finding of SLR and case study findings [16-22].",
+    "cited_abstract": "Quality is the most important factor for software development as it mainly defines customer satisfaction that is directly related to the success of a software project. The software process model is used to ensure software quality, represent a variety of task settings, manage project duration, improv...",
+    "intent": "result",
+    "title_overlap": 0.0
+  },
+  {
+    "citing_title": "Accelerating Neural BP-Based Decoder Using Coded Distributed Computing",
+    "cited_title": "Learning to decode linear codes using deep learning",
+    "context": "By introducing weight matrices and transformations, the primary operations in NBP decoder [2] are represented as matrix-vector multiplications.",
+    "cited_abstract": "A novel deep learning method for improving the belief propagation algorithm is proposed. The method generalizes the standard belief propagation algorithm by assigning weights to the edges of the Tanner graph. These edges are then trained using deep learning techniques. A well-known property of the b...",
+    "intent": "background,methodology",
+    "title_overlap": 0.0
+  },
+  {
+    "citing_title": "Anomaly-based Detection of Denial of Service via Deep Learning Memetic Trained Modular Network",
+    "cited_title": "Analyzing Quantum Feature Engineering and Balancing Strategies Effect on Liver Disease Classification",
+    "context": "Ref [106] 1.0000 1.0000 0.9999 1.0000 1.0000 Ref [113] 0.8728 0.8500 0.8120 0.8925 0.9300 Ref [114] 0,9968 0.9318 0.9848 0.9881 0.8902 Ref [115] 0.9981 0.9541 0.9881 0.9925 0.7829 Our Method 0.9984 0.9616 0.9890 0.9945 0.9998 Whilst some tasks have proven much easier to classify [90]; Others, have…",
+    "cited_abstract": "This research aims to improve the accuracy of liver disease classification using Quantum Feature Engineering (QFE) and the Synthetic Minority Over-sampling Tech-nique and Tomek Links (SMOTE-Tomek) data balancing technique. Four machine learning models were compared in this research, namely eXtreme G...",
+    "intent": "—",
+    "title_overlap": 0.0
+  },
+  {
+    "citing_title": "Unraveling some Kinki worms (Annelida: Oligochaeta: Megadrili: Moniligastridae) - Part I",
+    "cited_title": "The Fauna of British India, including Ceylon and Burma",
+    "context": "Genus Drawida Michaelsen, 1900: 114 as per Stephenson (1923, 1930) and as recently re-\ndefined in Blakemore et al. (2010).",
+    "cited_abstract": "THE volume before us differs somewhat in plan from most of those which have preceded it. The first half (up to p. 218) consists of a very elaborate introduction to the Coleoptera, giving a detailed account of the whole series of families (103, exclusive of Strepsiptera) recognised by the author in t...",
+    "intent": "background",
+    "title_overlap": 0.0
+  },
+  {
+    "citing_title": "PERITORINE DIALIZE GYDOMŲ VAIKŲ NEINFEKCINĖS KOMPLIKACIJOS",
+    "cited_title": "Non-infectious complications of continuous ambulatory peritoneal dialysis and their impact on technique survival",
+    "context": "Literatūros duomenimis, ši pacientes gąsdinanti komplikacija neturi ilgalaikių pasekmių jų išgyvenamumui, ultrafiltracijos nepakankamumui ir neturi įtakos peritonitų išsivystymui [6, 15].",
+    "cited_abstract": "Data on non-infectious complications of continuous ambulatory peritoneal dialysis (CAPD) are sparingly reported from different centres of the country. We studied the non-infectious complications in patients of end stage-renal disease (ESRD) undergoing CAPD. Double-cuffed straight catheter was insert...",
+    "intent": "—",
+    "title_overlap": 0.0
+  },
+  {
+    "citing_title": "Semi-supervised Autoencoding Projective Dependency Parsing",
+    "cited_title": "Differentiable Perturb-and-Parse: Semi-Supervised Parsing with a Structured Variational Autoencoder",
+    "context": "Instead, the DPPP model has to sample from the posterior of the structure by using a “GUMBEL-MAX trick” to approximate the categorical distribution at each step, which is intensively computationally expensive.",
+    "cited_abstract": "Human annotation for syntactic parsing is expensive, and large resources are available only for a fraction of languages. A question we ask is whether one can leverage abundant unlabeled texts to improve syntactic parsers, beyond just using the texts to obtain more generalisable lexical features (i.e...",
+    "intent": "—",
+    "title_overlap": 0.0
+  },
+  {
+    "citing_title": "Driving Factors and Future Prediction of Land Use and Cover Change Based on Satellite Remote Sensing Data by the LCM Model: A Case Study from Gansu Province, China",
+    "cited_title": "Analysing past land use land cover change and CA-Markov-based future modelling in the Middle Suluh Valley, Northern Ethiopia",
+    "context": "Previous studies about LUCC mainly focused on its dynamic patterns [3,14], driving factors [15–18], effects on ecosystems [4,9,10], and dynamic simulation and prediction [14,19–21] at different spatiotemporal scales.",
+    "cited_abstract": "Abstract This paper evaluates the past land use land cover (LULC) change and simulates the future change using Landsat images in northern Ethiopia. A supervised classification method with a maximum likelihood algorithm was employed to detect the past changes using ENVI 5.3 software. Moreover, a Cell...",
+    "intent": "background,result",
+    "title_overlap": 0.0
+  },
+  {
+    "citing_title": "Psychometric properties of the Persian version of the Second Victim Experience and Support Instrument",
+    "cited_title": "Psychometric Properties of the Impact of Events Scale-Revised (IES-R) Among General Iranian Population During the COVID-19 Pandemic",
+    "context": "To achieve acceptable construct reliability, Cronbach's alpha and McDonald's omega, CR and MaxR should be >0.7 (Sharif Nia et al., 2021).",
+    "cited_abstract": "Objective: The aim of this study was to translate and evaluate the validity and reliability of the Impact of Events Scale-Revised (IES-R) among the Iranian general population during the coronavirus disease 2019 (COVID-19) pandemic. Method: This study was methodological cross-sectional. It was conduc...",
+    "intent": "methodology",
+    "title_overlap": 0.0
+  },
+  {
+    "citing_title": "Scaffolding pre-service biology teachers’ diagnostic competences in a video-based Learning environment: measuring the effect of different types of scaffolds",
+    "cited_title": "Those Who Understand: Knowledge Growth in Teaching",
+    "context": "specific structures of instruction (Schmelzing et al., 2013; Shulman, 1986; Voss & Kunter, 2013).",
+    "cited_abstract": "I don't know in what fit of pique George Bernard Shaw wrote that infamous aphorism, words that have plagued members of the teaching profession for nearly a century. They are found in \"Maxims for Revolutionists,\" an appendix to his play Man and Superman. \"He who can, does. He who cannot, teaches\" is ...",
+    "intent": "—",
+    "title_overlap": 0.0
+  },
+  {
+    "citing_title": "Zc and Zcs systems with operator mixing at NLO in QCD sum rules",
+    "cited_title": "Analysis of the Hidden-charm Tetraquark molecule mass spectrum with the QCD sum rules",
+    "context": "So far in the literature there exist no complete calculations of the NLO contribution of C 1 , and in Ref.",
+    "cited_abstract": "In this paper, we investigate the mass spectrum of the ground state hidden-charm tetraquark molecular states without strange, with strange and with hidden-strange via the QCD sum rules in a comprehensive way and revisit the assignments of the [Formula: see text], [Formula: see text], [Formula: see t...",
+    "intent": "background,methodology",
+    "title_overlap": 0.0
+  },
+  {
+    "citing_title": "THE VALUE OF RESTATEMENT TO FRAUD PREDICTION",
+    "cited_title": "Auditing Related Party Transactions: Evidence from Audit Opinions and Restatements",
+    "context": ", 1999; Firth et al., 2011). Likewise, firms with only innocent errors are less likely to engage in fraud, thus providing support for Hypothesis 2b. The finding is also consistent with that of Tan and Young (2015), who suggested that firms with little errors have better financial performance and are less likely to have a material weakness.",
+    "cited_abstract": "SUMMARY Using data from the Chinese market where related party transactions (RPTs) are particularly prevalent, we examine how the independent auditor responds to the potentially heightened risk of RPTs and the efficacy of the auditor's response. First, we find that the auditor is more likely to issu...",
+    "intent": "—",
+    "title_overlap": 0.0
+  },
+  {
+    "citing_title": "Fuzzy Secure Event-Triggered Control for Networked Nonlinear Systems Under DoS and Deception Attacks",
+    "cited_title": "Resilient H∞ Filtering for Event-Triggered Networked Systems Under Nonperiodic DoS Jamming Attacks",
+    "context": "27, while the previous works, such as [32], [33], [39], and [40] required that α 1 > ( 0 .",
+    "cited_abstract": "This paper focuses on the resilient <inline-formula> <tex-math notation=\"LaTeX\">${H_{\\infty }}$ </tex-math></inline-formula> filter design for event-triggered networked systems subject to nonperiodic denial-of-service (DoS) jamming attacks. In this paper, a new resilient event-triggered transmission...",
+    "intent": "background,methodology,result",
+    "title_overlap": 0.0
+  },
+  {
+    "citing_title": "Stellar diameters and temperatures - VI. High angular resolution measurements of the transiting exoplanet host stars HD 189733 and HD 209458 and implications for models of cool dwarfs",
+    "cited_title": "THE GJ 436 SYSTEM: DIRECTLY DETERMINED ASTROPHYSICAL PARAMETERS OF AN M DWARF AND IMPLICATIONS FOR THE TRANSITING HOT NEPTUNE",
+    "context": "Of these, only recent improvements to instruments and increased sensitivities and techniques have enabled measurements to determine these stellar radii to better than 5% precision (3.1% for GJ 436 von Braun et al. 2012; and 0.6% for 55 Cnc von Braun et al. 2011).",
+    "cited_abstract": "The late-type dwarf GJ 436 is known to host a transiting Neptune-mass planet in a 2.6 day orbit. We present results of our interferometric measurements to directly determine the stellar diameter (R⋆ = 0.455 ± 0.018 R☉) and effective temperature (TEFF = 3416 ± 54 K). We combine our stellar parameters...",
+    "intent": "background,methodology",
+    "title_overlap": 0.0
+  },
+  {
+    "citing_title": "Learning to Cut via Hierarchical Sequence/Set Model for Efficient Mixed-Integer Programming",
+    "cited_title": "Exact Combinatorial Optimization with Graph Convolutional Neural Networks",
+    "context": "Following [16], [21], [27], we only allow cutting plane generation and selection at the root node.",
+    "cited_abstract": "Combinatorial optimization problems are typically tackled by the branch-and-bound paradigm. We propose a new graph convolutional neural network model for learning branch-and-bound variable selection policies, which leverages the natural variable-constraint bipartite graph representation of mixed-int...",
+    "intent": "—",
+    "title_overlap": 0.0
+  },
+  {
+    "citing_title": "Real Time Stable Haptic Rendering Of 3D Deformable Streaming Surface",
+    "cited_title": "Stable haptic interaction based on adaptive hierarchical shape matching",
+    "context": "The proposed method defines the HSM volumetric meshes with the same size of TSDF volume, the deformation field takes the whole scene together to perform the simulation.",
+    "cited_abstract": "In this paper, we present a framework allowing users to interact with geometrically complex 3D deformable objects using (multiple) haptic devices based on an extended shape matching approach. There are two major challenges for haptic-enabled interaction using the shape matching method. The first is ...",
+    "intent": "—",
+    "title_overlap": 0.0
+  },
+  {
+    "citing_title": "Synthesizing Switching Controllers for Hybrid Systems by Generating Invariants",
+    "cited_title": "Synthesizing Switching Controllers for Hybrid Systems by Continuous Invariant Generation",
+    "context": "For the particular purpose of facilitating SOS encodings of controller synthesis conditions, we propose specialized use of both Theorem 1 and 2, which can be found in the full version of this paper [18].",
+    "cited_abstract": "We extend a template-based approach for synthesizing switching controllers for semi-algebraic hybrid systems, in which all expressions are polynomials. This is achieved by combining a QE (quantifier elimination)-based method for generating continuous invariants with a qualitative approach for predef...",
+    "intent": "background,methodology",
+    "title_overlap": 0.0
+  },
+  {
+    "citing_title": "UPLIFT: Parallelization Strategies for Feature Transformations in Machine Learning Workloads",
+    "cited_title": "MLlib: Machine Learning in Apache Spark",
+    "context": "…transformations with techniques such as caching and reuse [24, 79, 113] to avoid redundant pre-processing operations, interleaving single-pass, element-wise transformations with data loading [72], parallelizing independent column transformations [1], and static data parallelism [6, 67, 72, 76].",
+    "cited_abstract": "Apache Spark is a popular open-source platform for large-scale data processing that is well-suited for iterative machine learning tasks. In this paper we present MLlib, Spark's open-source distributed machine learning library. MLlib provides efficient functionality for a wide range of learning setti...",
+    "intent": "background,methodology",
+    "title_overlap": 0.0
+  },
+  {
+    "citing_title": "Compounding the Performance Improvements of Assembled Techniques in a Convolutional Neural Network",
+    "cited_title": "Bag of Tricks for Image Classification with Convolutional Neural Networks",
+    "context": "Inspired by [9], we conducted a more extensive and systematic study of assembling several CNN-related techniques into a single network.",
+    "cited_abstract": "Much of the recent progress made in image classification research can be credited to training procedure refinements, such as changes in data augmentations and optimization methods. In the literature, however, most refinements are either briefly mentioned as implementation details or only visible in ...",
+    "intent": "background,methodology",
+    "title_overlap": 0.0
+  }
+]

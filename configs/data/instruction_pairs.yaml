@@ -1,0 +1,13 @@
+# Instruction-aware pair generation settings
+datalake:
+  db_path: ${env:DATALAKE_DB,/path/to/data/science_datalake/datalake.duckdb}
+  read_only: true
+  threads: 8
+  memory_limit: "32GB"
+
+output_dir: /path/to/data/sciembed_output/instruction_pairs
+search_pairs: 4000000
+classification_pairs: 3000000
+clustering_pairs: 2000000
+similarity_pairs: 1000000
+triplets_dir: null  # set to citation_triplets output to reuse for search pairs

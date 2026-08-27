@@ -1,0 +1,36 @@
+{
+  "_comment": "Body-Fact Retrieval (BFR) evaluation config. Each entry evaluates one embedding model at its native max_seq_length.  Short-context models (<=512) cannot see body content; long-context models (2K, 8K) can.  The gap between these quantifies the long-context advantage on science-specific retrieval.",
+  "models": [
+    {
+      "name": "sciembed_ctx_512",
+      "model_name_or_path": "${MODEL_DIR}/sciembed_ctx_512",
+      "max_seq_length": 512,
+      "pooling": "mean"
+    },
+    {
+      "name": "sciembed_ctx_2048",
+      "model_name_or_path": "${MODEL_DIR}/sciembed_ctx_2048",
+      "max_seq_length": 2048,
+      "pooling": "mean"
+    },
+    {
+      "name": "sciembed_ctx_8192",
+      "model_name_or_path": "${MODEL_DIR}/sciembed_ctx_8192",
+      "max_seq_length": 8192,
+      "pooling": "mean"
+    },
+    {
+      "name": "nomic_embed_v1_5",
+      "model_name_or_path": "nomic-ai/nomic-embed-text-v1.5",
+      "max_seq_length": 8192,
+      "pooling": "mean",
+      "trust_remote_code": true
+    },
+    {
+      "name": "bge_m3",
+      "model_name_or_path": "BAAI/bge-m3",
+      "max_seq_length": 8192,
+      "pooling": "cls"
+    }
+  ]
+}

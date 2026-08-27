@@ -1,0 +1,22 @@
+# Citation triplets — GENERAL tier (non-influential, quality-filtered)
+# Used alongside the influential tier for higher training data volume.
+# Both papers must have ≥5 citations to ensure quality.
+datalake:
+  db_path: ${env:DATALAKE_DB,/path/to/data/science_datalake/datalake.duckdb}
+  read_only: true
+  threads: 16
+  memory_limit: "128GB"
+
+output_dir: /path/to/data/sciembed_output/citation_triplets_general
+num_triplets: 34000000
+influential_only: false
+min_citation_count: 5
+max_abstract_chars: 512
+negative_mix:
+  same_topic: 0.5
+  two_hop: 0.3
+  random: 0.2
+# Reuse the paper pool from the influential tier
+paper_pool_path: null
+num_workers: 16
+shard_size: 1000000
